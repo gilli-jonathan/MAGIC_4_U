@@ -2,7 +2,9 @@ export default function Header() {
 
     return (
         <>
-            <h1>HEADER</h1>
+            <div className="bg-black h-24">
+                <h1 className="text-white">HEADER</h1>
+            </div>
         </>
     )
 }
