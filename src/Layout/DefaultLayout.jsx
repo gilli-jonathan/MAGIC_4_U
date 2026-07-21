@@ -6,8 +6,9 @@ export default function DefaultLayout() {
 
     return (
         <>
+
             <Header />
-            <main className="min-h-200">
+            <main className="min-h-200 m-10">
                 <Outlet />
             </main>
             <Footer />
